@@ -1,3 +1,7 @@
+h1 {
+    font-size: small;
+}
+
 #body {
     background-color: rgb(61, 228, 250);
     height: 100vh;
@@ -43,3 +47,71 @@
     background-color: rgb(244, 61, 61);
     
 }
+
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: large;
+    }
+
+    #result {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        height: 100px;
+        width: 370px;
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 2px;
+        margin-top: 15px;
+        margin-left: 25px;   
+        margin-bottom: 10px;
+        text-align: right;
+        border-radius: 5px;
+    }
+    .num-btn {
+        background-color: rgb(59, 59, 59);
+        border: 1px solid rgb(0, 0, 0);
+        padding: 14px;
+        width: 100px;
+        height: 90px;
+        margin: 5px;
+        font-size: 24px;
+        color: aliceblue;
+        border-radius: 10px;
+        
+    }
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        font-size:x-large;
+    }
+}
+    #result {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        height: 130px;
+        width: 470px;
+        font-size: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 2px;
+        margin-top: 15px;
+        margin-left: 25px;   
+        margin-bottom: 10px;
+        text-align: right;
+        border-radius: 5px;
+    }
+    .num-btn {
+        background-color: rgb(59, 59, 59);
+        border: 1px solid rgb(0, 0, 0);
+        padding: 14px;
+        width: 120px;
+        height: 110px;
+        margin: 8px;
+        font-size: 28px;
+        color: aliceblue;
+        border-radius: 10px;
+        
+    }
